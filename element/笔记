@@ -1,0 +1,4 @@
+1.使用vue脚手架新建项目
+2.npm i element-ui -S 安装element ui
+3.main.js中导入并使用element ui
+
