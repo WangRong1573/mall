@@ -4,6 +4,7 @@ import Demo from "../components/Demo";
 import ButtonDetail from "../components/ButtonDetail";
 import Link from "../components/Link";
 import Layout from "../components/Layout";
+import Container from "../components/Container";
 
 Vue.use(Router)
 
@@ -24,6 +25,10 @@ export default new Router({
     {
       path:'/layout',
       component:Layout
+    },
+    {
+      path:'/container',
+      component:Container
     }
   ],
   mode:'history'

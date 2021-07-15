@@ -4,6 +4,7 @@
     <a href="/buttonDetail">跳转到button组件学习页面</a>
     <a href="/link">文字链接页面</a>
     <a href="/layout">layout布局组件</a>
+    <a href="/container">Container容器组件的使用</a>
     <router-view/>
   </div>
 </template>
