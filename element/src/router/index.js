@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Demo from "../components/Demo";
 import ButtonDetail from "../components/ButtonDetail";
 import Link from "../components/Link";
-
+import Layout from "../components/Layout";
 
 Vue.use(Router)
 
@@ -20,6 +20,10 @@ export default new Router({
     {
       path:'/link',
       component:Link
+    },
+    {
+      path:'/layout',
+      component:Layout
     }
   ],
   mode:'history'
