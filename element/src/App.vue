@@ -5,6 +5,7 @@
     <a href="/link">文字链接页面</a>
     <a href="/layout">layout布局组件</a>
     <a href="/container">Container容器组件的使用</a>
+    <a href="/containerexample">container容器组件示例</a>
     <router-view/>
   </div>
 </template>
